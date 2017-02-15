@@ -1,0 +1,55 @@
+{
+    "author": "benpzotti",
+    "dependencies": {},
+    "keywords": [],
+    "name": "josefin",
+    "pebble": {
+        "displayName": "Josefin",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "ICON_IMAGE",
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/JosefinSlab-Regular.ttf",
+                    "name": "FONT_JOSEFIN_69",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9a-zA-Z:.]",
+                    "file": "fonts/JosefinSlab-Regular.ttf",
+                    "name": "FONT_JOSEFIN_19",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/JosefinSlab-Regular.ttf",
+                    "name": "FONT_JOSEFIN_60",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/JosefinSlab-Regular.ttf",
+                    "name": "FONT_JOSEFIN_57",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "e06d77fa-b84c-48d7-b7d1-ff93294cd19f",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
